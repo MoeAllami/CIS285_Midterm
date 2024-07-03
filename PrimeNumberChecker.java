@@ -27,6 +27,7 @@ public class PrimeNumberChecker {
             for (int j = 2; j <= Math.sqrt(i); j++) {
                 if (i % j == 0) {
                     isPrimeCheck = false;
+                    int k == 1;
                     break;
                 }
             }
